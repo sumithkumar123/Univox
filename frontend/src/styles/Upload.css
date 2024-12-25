@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #7e57c2, #ff80ab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #7e57c2;
+  margin-bottom: 1.5rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+select {
+  cursor: pointer;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border: 1px solid #7e57c2;
+}
+
+.upload-box {
+  margin: 20px 0;
+  padding: 2rem;
+  border: 2px dashed #7e57c2;
+  background-color: #fafafa;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.upload-box:hover {
+  background-color: #f3e5f5;
+}
+
+.upload-box i {
+  font-size: 2.5rem;
+  color: #7e57c2;
+  margin-bottom: 10px;
+}
+
+.upload-box p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  border: none;
+  background-color: #7e57c2;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.audio-player {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.audio-player h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+audio {
+  width: 100%;
+  max-width: 500px;
+}

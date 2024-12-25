@@ -1,0 +1,154 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
+  .signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    width: 35vw;
+    text-align: center;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .signup-form .form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .signup-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-form .btn-primary {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .oauth-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .oauth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .oauth-btn img {
+    margin-right: 10px;
+  }
+  
+  .oauth-btn:hover {
+    background-color: #f0f0f0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .google-btn {
+    border-color: black; 
+  }
+  
+  .microsoft-btn {
+    border-color: black; 
+  }
+  
+  .apple-btn {
+    border-color: #000;
+  }
+  
+ 
+  */
+  .oauth-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Adds space between each button */
+    margin-top: 20px;
+  }
+  
+  .oauth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 12px 20px; /* Padding inside the button */
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Ensures the button takes full width */
+    max-width: 320px; /* Restricting maximum width for consistency */
+    margin: 0 auto; /* Centering the buttons horizontally */
+  }
+  
+  .oauth-btn img, 
+  .oauth-btn svg {
+    margin-right: 12px; /* Adds space between the icon and the text */
+    width: 20px;
+    height: 20px; /* Ensures a consistent size for icons */
+  }
+  
+  .oauth-btn:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button-specific border colors for brand consistency */
+  .google-btn {
+    border-color:black;
+  }
+  
+  .microsoft-btn {
+    border-color: black;
+  }
+  
+  .apple-btn {
+    border-color: #000;
+  }
+  
