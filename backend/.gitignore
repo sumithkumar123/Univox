@@ -1,0 +1,12 @@
+# Ignore output directories
+output_audios/
+output_videos/
+
+# Ignore input videos
+input_videos/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore environment files
+.env
