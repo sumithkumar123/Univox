@@ -25,17 +25,17 @@
 //                     <h3>How It Works</h3>
 //                     <div className="steps">
 //                         <div className="step">
-//                             <div className="icon">⬆️</div>
+//                             <div className="icon"></div>
 //                             <h4>1. Upload Your Video</h4>
 //                             <p>Drag and drop or select your video file to upload.</p>
 //                         </div>
 //                         <div className="step">
-//                             <div className="icon">🌐</div>
+//                             <div className="icon"></div>
 //                             <h4>2. Choose Languages</h4>
 //                             <p>Select the original and target languages for translation.</p>
 //                         </div>
 //                         <div className="step">
-//                             <div className="icon">✨</div>
+//                             <div className="icon"></div>
 //                             <h4>3. Watch the Magic</h4>
 //                             <p>Our AI translates your video in real-time.</p>
 //                         </div>
@@ -128,17 +128,17 @@ function HomePage() {
                     <h3>How It Works</h3>
                     <div className="steps">
                         <div className="step">
-                            <div className="icon">⬆️</div>
+                            <div className="icon"></div>
                             <h4>1. Upload Your Video</h4>
                             <p>Drag and drop or select your video file to upload.</p>
                         </div>
                         <div className="step">
-                            <div className="icon">🌐</div>
+                            <div className="icon"></div>
                             <h4>2. Choose Languages</h4>
                             <p>Select the original and target languages for translation.</p>
                         </div>
                         <div className="step">
-                            <div className="icon">✨</div>
+                            <div className="icon"></div>
                             <h4>3. Watch the Magic</h4>
                             <p>Our AI translates your video in real-time.</p>
                         </div>
